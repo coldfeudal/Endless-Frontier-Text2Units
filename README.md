@@ -16,7 +16,7 @@ Example string: `DK(PI) T3Gunner*3 T6DK(MI) Gunner`
 
 Which will result in:
 
-![Example image with units](example_image.png)
+![Example image with units](system/example_image.png)
 
 **You can't use `T*` with `Sr` prefix**
 
