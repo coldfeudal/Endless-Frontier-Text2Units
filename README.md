@@ -14,6 +14,10 @@ Unit string should be in the following format: `[T1-6]<Unit name or abbreviation
 
 Example string: `DK(PI) T3Gunner*3 T6DK(MI) Gunner`
 
+Which will result in:
+
+![Example image with units](example_image.png)
+
 **You can't use `T*` with `Sr` prefix**
 
 ## Table of contents
