@@ -18,7 +18,7 @@ Which will result in:
 
 ![Example image with units](system/example_image.png)
 
-**You can't use `T*` with `Sr` prefix**
+**NOTE: You can't use `T*` with `Sr` prefix**
 
 ## Table of contents
 
