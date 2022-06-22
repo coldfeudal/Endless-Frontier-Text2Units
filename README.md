@@ -4,7 +4,7 @@
 
 This small script helps transforming unit abbreviatons mainly from [ToT Megasheet Of Solutions](https://docs.google.com/spreadsheets/d/1lp1PwicC9QwwQye32IwLriIV0H4OQcrcpWPYDbxeu30) to human viewable form
 
-Can also be handy generating images for guides
+Can also be handy for generating images for guides
 
 ## Usage
 
