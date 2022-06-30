@@ -16,30 +16,23 @@ Example string: `DK(PI) T3Gunner*3 T6DK(MI) Gunner`
 
 Which will result in:
 
-![Example image with units](system/example_image.png)
+![Example image with units](public/example_image.png)
 
 **NOTE: You can't use `T*` with `Sr` prefix**
 
 ## Table of contents
 
-- [main.py](main.py) : Unit generator itself, converted automatically from `output.ipynb`
-- [output.ipynb](output.ipynb) : Basically `main.py` but in notebook form
-- [units.db](units.db) : Main units database
-- - `units`  : Table with all the units
-- - - `id`   : Unique unit id
+- [./public/units.json](units.json) : Unit data storage
+- - `units`  : Array with all the units
 - - - `name` : Unit name in english
-- - - `*_name` : Localized unit name, feel free to add new ones yourself
-- - - `short` : Defalut unit abbreviation
-- - - `alt_short[_*]` : Alternative unit abbreviations
 - - - `star` : Defalut unit stars count
-- [generator.ipynb](generator.ipynb) : Creates SQL lines to add unit translations to DB
-- [dowload.ipynb](dowload.ipynb) : Script to automatically download images from [Endless Frontier Wikia](https://endless-frontier.fandom.com)
-- [./normal](normal) : Default unit skins
-- [./senior](senior) : Senior unit skin variants
-- [./system](system) : Sprites used by script to generate images
+- - - `local` : Localized unit names, feel free to add new ones yourself
+- [./public/normal/](public/normal) : Default unit skins
+- [./public/senior/](public/senior) : Senior unit skin variants
+- [./public/system/](public/system) : Sprites used by script to generate images
 - - `*-star.png` : Unit backgrounds
-- - [empty_unit.png](system/empty_unit.png) : Default unit background
-- - [immune-m.png](system/immune-m.png) : Magic immunity sprite
-- - [immune-p.png](system/immune-p.png) : Physical immunity sprite
-- - [plus.png](system/plus.png) : Sprite for multiple units used in ToT, called by giving a unit T4-6
+- - [empty_unit.png](public/system/empty_unit.png) : Default unit background
+- - [immune-m.png](public/system/immune-m.png) : Magic immunity sprite
+- - [immune-p.png](public/system/immune-p.png) : Physical immunity sprite
+- - [plus.png](public/system/plus.png) : Sprite for multiple units used in ToT, called by giving a unit T4-6
 - - [tier.png](system/tier.png) : Unit transendance sprite

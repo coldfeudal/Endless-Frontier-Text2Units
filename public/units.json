@@ -1,0 +1,557 @@
+{
+    "units": [
+        {
+            "star": 1,
+            "local": {
+                "ru": "Эльф-лучник"
+            },
+            "names": ["Elf Archer", "ea"]
+        },
+        {
+            "star": 1,
+            "local": {
+                "ru": "Пехота"
+            },
+            "names": ["Infantry", "inf"]
+        },
+        {
+            "star": 1,
+            "local": {
+                "ru": "Орк-боец"
+            },
+            "names": ["Orc Fighter", "of"]
+        },
+        {
+            "star": 1,
+            "local": {
+                "ru": "Скелет"
+            },
+            "names": ["Skeleton Unit", "su"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Воин-эльф"
+            },
+            "names": ["Elf Warrior", "ew"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Ледяной маг"
+            },
+            "names": ["Frost Mage", "frost"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Тяжёлая пехота"
+            },
+            "names": ["Heavy Infantry", "hi"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Орк-охотник"
+            },
+            "names": ["Orc Hunter", "oh"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Лучник с ядом"
+            },
+            "names": ["Poison Archer", "pa"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Колдун"
+            },
+            "names": ["Warlock", "lock"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Призрак"
+            },
+            "names": ["Ghost", "ghost"]
+        },
+        {
+            "star": 2,
+            "local": {
+                "ru": "Огненная птица"
+            },
+            "names": ["Fire Bird", "fb"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Рыцарь с молотом"
+            },
+            "names": ["Hammer Knight", "hk"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Высококлассный эльф-лучник"
+            },
+            "names": ["High Elf Archer", "hea"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Зелёный орел"
+            },
+            "names": ["Green Eagle", "ge"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Воин с большим молотом"
+            },
+            "names": ["Great Hammer Unit", "ghu"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Мушкетер"
+            },
+            "names": ["Musketeer", "musk"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Орк с молотом"
+            },
+            "names": ["Orc Hammer Unit", "ohu"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Крыло орка"
+            },
+            "names": ["Orc Wing", "ow"]
+        },
+        {
+            "star": 3,
+            "local": {
+                "ru": "Воин-скелет"
+            },
+            "names": ["Skeleton Warrior", "sw"]
+        },
+        {
+            "star": 4,
+            "local": {
+                "ru": "Маг чёрной магии"
+            },
+            "names": ["Black Magic Wizard", "bmw"]
+        },
+        {
+            "star": 4,
+            "local": {
+                "ru": "Рыцарь конницы"
+            },
+            "names": ["Cavalry Knight", "ck"]
+        },
+        {
+            "star": 4,
+            "local": {
+                "ru": "Орк с топором"
+            },
+            "names": ["Orc Ax Unit", "oau"]
+        },
+        {
+            "star": 4,
+            "local": {
+                "ru": "Маг ветра"
+            },
+            "names": ["Wind Mage", "wm"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Алладин"
+            },
+            "names": ["Aladdin", "al"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Алхимик"
+            },
+            "names": ["Alchemist", "alch"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Адский маг"
+            },
+            "names": ["Abyss Mage", "am"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Военный барабанщик "
+            },
+            "names": ["Battle Drummer", "bd", "drummer"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Снежный Человек"
+            },
+            "names": ["Big Foot", "bf"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Мастер клинка"
+            },
+            "names": ["Blade Master", "bm"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Бомбардировщик"
+            },
+            "names": ["Bomb Unit", "bu", "bomb"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Клирик"
+            },
+            "names": ["Cleric", "cleric"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Рыцарь-ворон"
+            },
+            "names": ["Crow Knight", "crow"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Тёмный лучник"
+            },
+            "names": ["Dark Archer", "da"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Тёмный адмирал"
+            },
+            "names": ["Dark Admiral", "dad"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Тёмный эльф"
+            },
+            "names": ["Dark Elf", "de"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Рыцарь смерти"
+            },
+            "names": ["Death Knight", "dk"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Друид"
+            },
+            "names": ["Druid", "druid"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Тёмный дух"
+            },
+            "names": ["Dark Spirit", "ds"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Элементалист"
+            },
+            "names": ["Elementalist", "elem", "ele"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Древень"
+            },
+            "names": ["Ent", "ent"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Фея"
+            },
+            "names": ["Fairy", "fairy"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Демон мороза"
+            },
+            "names": ["Frost Demon", "fd"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Страж леса"
+            },
+            "names": ["Forest Guardian", "fg", "guardian"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Огненный маг"
+            },
+            "names": ["Fire Mage", "fm"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Огненный дух"
+            },
+            "names": ["Fire Spirit", "fs"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Сварливая многоножка"
+            },
+            "names": ["Hoyden Goku", "goku"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Голем"
+            },
+            "names": ["Golem", "golem"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Наездник на грифоне"
+            },
+            "names": ["Griffin Rider", "gr", "griffin"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Артиллерист"
+            },
+            "names": ["Gunner", "gunner"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Горячий монах"
+            },
+            "names": ["Hot-Blooded Xuanzang", "hb"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Гиппогриф"
+            },
+            "names": ["Hippogriff", "hg", "hippo"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Рука смерти"
+            },
+            "names": ["Hands of Death", "hod"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Инкуб"
+            },
+            "names": ["Incubus", "inc"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Ледяной дух"
+            },
+            "names": ["Ice Spirit", "is"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Ледяной волшебник"
+            },
+            "names": ["Ice Wizard", "iw"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Лич"
+            },
+            "names": ["Lich", "lich"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Медуза"
+            },
+            "names": ["Medusa", "med", "dusa", "mom"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Нага"
+            },
+            "names": ["Naga", "naga"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Ниндзя Тьмы"
+            },
+            "names": ["Dark Ninja", "nod"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Пилот"
+            },
+            "names": ["Pilot", "pilot"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Священник"
+            },
+            "names": ["Priest", "priest"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Рангда"
+            },
+            "names": ["Rangda", "rangda"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Наездник на рапторе"
+            },
+            "names": ["Raptor Rider", "raptor", "rr"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Эльфийский мудрец"
+            },
+            "names": ["Elf Sage", "sage"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Танцовщица с мечом"
+            },
+            "names": ["Sword Dancer", "sd"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Сирена"
+            },
+            "names": ["Siren", "siren"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Волшебник"
+            },
+            "names": ["Sorcerer", "sorc"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Стим-панк"
+            },
+            "names": ["Steam Punk", "sp"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Суккуб"
+            },
+            "names": ["Succubus", "succ"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Сильфид"
+            },
+            "names": ["Sylphid", "sylph"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Мушкетерша"
+            },
+            "names": ["Musketress", "tress"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Рыцарь на единороге"
+            },
+            "names": ["Unicorn Knight", "uk"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Валькирия"
+            },
+            "names": ["Valkyrie", "valk"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Шагающий по ветру"
+            },
+            "names": ["Windwalker", "wiwa"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Крылатый Рыцарь"
+            },
+            "names": ["Winged Knight", "wk"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Наездник на волке"
+            },
+            "names": ["Wolf Rider", "wr"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Воин-волк"
+            },
+            "names": ["Wolf Warrior", "ww"]
+        },
+        {
+            "star": 5,
+            "local": {
+                "ru": "Всадник на виверне"
+            },
+            "names": ["Wyvern Rider", "wyvern"]
+        }
+    ]
+}
