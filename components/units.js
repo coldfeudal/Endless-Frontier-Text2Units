@@ -188,7 +188,7 @@ const UnitImages = ({ units = [], scale = 1 }) => {
     useEffect(() => {
         let imageObj = document.querySelector(`.${styles.units}`)
         setFixerHeight(imageObj.getBoundingClientRect().height)
-    }, [scale])
+    }, [scale, units])
 
     let i = 0
     let cols = 6
