@@ -84,6 +84,17 @@ const Units = ({ unitsHashMap, unitData }) => {
             <Inputs setString={changeString} setScale={changeScale} scale={scale} string={string} />
             {string && units.length ? <DownloadImage /> : <></>}
             {string && units.length ? <UnitImages units={units} scale={scale} /> : <></>}
+            <p className={styles.gray}>
+                If you like the project, you can star in on{" "}
+                <a
+                    className={styles.blue}
+                    href="https://github.com/coldfeudal/Endless-Frontier-Text2Units"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    github
+                </a>
+            </p>
 
             {/* <>
                 <div className={styles.inputs}>
@@ -172,6 +183,13 @@ const Inputs = ({ setString = () => {}, setScale = () => {}, scale = 1, string =
 }
 
 const UnitImages = ({ units = [], scale = 1 }) => {
+    const [fixerHeight, setFixerHeight] = useState(0)
+
+    useEffect(() => {
+        let imageObj = document.querySelector(`.${styles.units}`)
+        setFixerHeight(imageObj.getBoundingClientRect().height)
+    }, [scale])
+
     let i = 0
     let cols = 6
     let allCount = Object.keys(units).reduce(function (previous, key) {
@@ -179,70 +197,83 @@ const UnitImages = ({ units = [], scale = 1 }) => {
     }, 0)
 
     return (
-        <div
-            className={styles.units}
-            style={{
-                transform: `scale(${scale})`
-            }}
-        >
+        <div className={styles.unitsWrapper}>
             <div
-                className={styles.unitsInner}
+                className={styles.heightFixer}
                 style={{
-                    gridTemplateColumns: `repeat(${Math.min(allCount, cols)}, 1fr)`
+                    height: `${fixerHeight}px`
+                }}
+            ></div>
+
+            <div
+                className={styles.units}
+                style={{
+                    transform: `scale(${scale})`
                 }}
             >
-                {units.map((unit) => {
-                    return [...Array(unit.count)].map((e, n) => {
-                        return (
-                            <div
-                                key={i++}
-                                className={`${styles.unit} ${styles[`star-${unit.star}`]}`}
-                            >
-                                <div className={styles.unitImage}>
-                                    <div
-                                        className={styles.unitImageInner}
-                                        style={{
-                                            backgroundImage: `url('/${
-                                                unit.senior ? "senior" : "normal"
-                                            }/${unit.name}.png')`
-                                        }}
-                                    ></div>
-                                </div>
-                                <div className={styles.tier}>
-                                    {[...Array(unit.tier)].map((e, i) => {
-                                        return (
-                                            <div
-                                                key={i}
-                                                className={styles.tierImage}
-                                                style={{
-                                                    top: `${-6.5 * styles.tierSizeMult * i}px`
-                                                }}
-                                            ></div>
-                                        )
-                                    })}
-                                </div>
+                <div
+                    className={styles.unitsInner}
+                    style={{
+                        gridTemplateColumns: `repeat(${Math.min(allCount, cols)}, 1fr)`
+                    }}
+                >
+                    {units.map((unit) => {
+                        return [...Array(unit.count)].map((e, n) => {
+                            return (
                                 <div
-                                    className={styles.elite}
-                                    style={{
-                                        gridTemplateColumns: `repeat(${unit.elite}, 1fr)`
-                                    }}
+                                    key={i++}
+                                    className={`${styles.unit} ${styles[`star-${unit.star}`]}`}
                                 >
-                                    {[...Array(unit.elite)].map((e, i) => {
-                                        return <div key={i} className={styles.eliteImage}></div>
-                                    })}
+                                    <div className={styles.unitImage}>
+                                        <div
+                                            className={styles.unitImageInner}
+                                            style={{
+                                                backgroundImage: `url('/${
+                                                    unit.senior ? "senior" : "normal"
+                                                }/${unit.name}.png')`
+                                            }}
+                                        ></div>
+                                    </div>
+                                    <div className={styles.tier}>
+                                        {[...Array(unit.tier)].map((e, i) => {
+                                            return (
+                                                <div
+                                                    key={i}
+                                                    className={styles.tierImage}
+                                                    style={{
+                                                        top: `${-6.5 * styles.tierSizeMult * i}px`
+                                                    }}
+                                                ></div>
+                                            )
+                                        })}
+                                    </div>
+                                    <div
+                                        className={styles.elite}
+                                        style={{
+                                            gridTemplateColumns: `repeat(${unit.elite}, 1fr)`
+                                        }}
+                                    >
+                                        {[...Array(unit.elite)].map((e, i) => {
+                                            return <div key={i} className={styles.eliteImage}></div>
+                                        })}
+                                    </div>
+                                    <div className={`${styles.immune}`}>
+                                        {unit.magicImmune ? (
+                                            <div className={styles.magic}></div>
+                                        ) : (
+                                            <></>
+                                        )}
+                                        {unit.physImmune ? (
+                                            <div className={styles.phys}></div>
+                                        ) : (
+                                            <></>
+                                        )}
+                                    </div>
                                 </div>
-                                <div className={`${styles.immune}`}>
-                                    {unit.magicImmune ? (
-                                        <div className={styles.magic}></div>
-                                    ) : (
-                                        <></>
-                                    )}
-                                    {unit.physImmune ? <div className={styles.phys}></div> : <></>}
-                                </div>
-                            </div>
-                        )
-                    })
-                })}
+                            )
+                        })
+                    })}
+                </div>
             </div>
         </div>
     )
