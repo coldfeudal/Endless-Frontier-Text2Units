@@ -8,7 +8,7 @@ Can also be handy for generating images for guides
 
 ## Usage
 
-You can use it by starting [output.ipynb](output.ipynb) in [Jupiter Notebook](https://jupyter.org/), [VSCode](https://code.visualstudio.com/) or directly running [main.py](main.py)
+You can currently use it online at [ef.apoapsis-web.tk](https://ef.apoapsis-web.tk/)
 
 Unit string should be in the following format: `[T1-6]<Unit name or abbreviation>[(PI)/(MI)][*0-9223372036854775807]` (Although `*9223372036854775807` is totally not recommended for your pc)
 
