@@ -15,7 +15,8 @@ export default function Home({ unitData }) {
     return (
         <>
             <Head>
-                <title>Unit generator</title>
+                <title>EF Unit generator</title>
+                <link rel="shortcut icon" href="/favicon.png"></link>
             </Head>
             <Units unitsHashMap={unitsHashMap} unitData={unitData} />
         </>
@@ -25,6 +26,7 @@ export default function Home({ unitData }) {
 export async function getStaticProps() {
     const res = await fetch(process.env.NEXT_PUBLIC_DOMAIN_NAME + "units.json")
     const unitData = await res.json()
+
 
     return {
         props: {
