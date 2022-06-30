@@ -85,7 +85,7 @@ const Units = ({ unitsHashMap, unitData }) => {
             {string && units.length ? <DownloadImage /> : <></>}
             {string && units.length ? <UnitImages units={units} scale={scale} /> : <></>}
             <p className={styles.gray}>
-                If you like the project, you can star in on{" "}
+                If you like the project, you can star it on{" "}
                 <a
                     className={styles.blue}
                     href="https://github.com/coldfeudal/Endless-Frontier-Text2Units"
@@ -166,7 +166,7 @@ const Inputs = ({ setString = () => {}, setScale = () => {}, scale = 1, string =
                         />
                         <input
                             type="number"
-                            min="1"
+                            min=".1"
                             max="10"
                             step=".1"
                             value={scale}

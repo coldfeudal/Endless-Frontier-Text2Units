@@ -15,7 +15,7 @@ export default function Home({ unitData }) {
     return (
         <>
             <Head>
-                <title>EF Unit generator</title>
+                <title>EF Unit Generator</title>
                 <link rel="shortcut icon" href="/favicon.png"></link>
             </Head>
             <Units unitsHashMap={unitsHashMap} unitData={unitData} />
