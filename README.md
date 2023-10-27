@@ -35,4 +35,4 @@ Which will result in:
 - - [immune-m.png](public/system/immune-m.png) : Magic immunity sprite
 - - [immune-p.png](public/system/immune-p.png) : Physical immunity sprite
 - - [plus.png](public/system/plus.png) : Sprite for multiple units used in ToT, called by giving a unit T4-6
-- - [tier.png](system/tier.png) : Unit transendance sprite
+- - [tier.png](public/system/tier.png) : Unit transendance sprite
