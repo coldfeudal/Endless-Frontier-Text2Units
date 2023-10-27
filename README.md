@@ -22,7 +22,7 @@ Which will result in:
 
 ## Table of contents
 
-- [./public/units.json](units.json) : Unit data storage
+- [./public/units.json](public/units.json) : Unit data storage
 - - `units`  : Array with all the units
 - - - `name` : Unit name in english
 - - - `star` : Defalut unit stars count
